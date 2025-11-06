@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { allCourses } from '../data/allCourses'  
-import CourseCard from '../../students/CourseCard'     
+import { dummyCourses as allCourses  } from "./../../assets/assets" 
+import CourseCard from './CourseCard'
+
 
 const CoursesSection = () => {
+  console.log(allCourses)
   return (
     <div className='py-16 md:px-40 px-8'>
       <h2 className='text-3xl font-medium text-gray-800'>Learn from the best</h2>
