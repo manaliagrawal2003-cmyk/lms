@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function CourseList() {
-  return (
-    <div>
-      CourseList
-    </div>
-  )
-}
+const CourseList = () => {
+  return <div>courselist</div>;
+};
 
-export default CourseList
+export default CourseList;

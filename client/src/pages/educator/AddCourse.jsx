@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function AddCourse() {
-  return (
-    <div>
-      Addcourse
-    </div>
-  )
-}
+const AddCourse = () => {
+  return <div>AddCourse</div>;
+};
 
 export default AddCourse;

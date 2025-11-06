@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import { Outlet } from "react-router-dom";
 
-function Educator() {
+const Educator = () => {
   return (
-    <div>
-      Educator
-    </div>
-  )
-}
+    <>
+      <div>Educator</div>
+      <Outlet />
+    </>
+  );
+};
 
-export default Educator
+export default Educator;

@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function Player() {
-  return (
-    <div>
-      Player
-    </div>
-  )
-}
+const Player = () => {
+  return <div>player</div>;
+};
 
-export default Player
+export default Player;

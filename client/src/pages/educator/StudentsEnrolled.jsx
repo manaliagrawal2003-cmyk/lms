@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function StudentsEnrolled() {
-  return (
-    <div>
-      StudentsEnrolled
-    </div>
-  )
-}
+const StudentsEnrolled = () => {
+  return <div>StudentsEnrolled</div>;
+};
 
-export default StudentsEnrolled
+export default StudentsEnrolled;
