@@ -14,6 +14,7 @@ import { dummyCourses } from "../assets/assets";
     } 
      useEffect(() =>{
         fetchAllCourses()
+        console.log("Context Mounted");
      },[])
          
      const value={
