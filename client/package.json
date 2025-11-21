@@ -12,9 +12,13 @@
   "dependencies": {
     "@clerk/clerk-react": "^5.53.6",
     "@tailwindcss/vite": "^4.1.16",
+    "humanize-duration": "^3.33.1",
+    "prettier": "^3.6.2",
+    "rc-progress": "^4.0.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.5",
+    "react-youtube": "^10.1.0",
     "tailwind.config.js": "^1.0.6",
     "tailwindcss": "^4.1.16"
   },

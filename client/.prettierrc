@@ -8,10 +8,5 @@
   "bracketSpacing": true, 
   "arrowParens": "always", 
   "endOfLine": "auto", 
-  "jsxSingleQuote": false, 
-  "bracketSameLine": false, 
-  "plugins": ["prettier-plugin-tailwindcss"],
-  "importOrder": ["^react", "^@?\\w", "^[./]"],
-  "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true
+  "jsxSingleQuote": false
 }

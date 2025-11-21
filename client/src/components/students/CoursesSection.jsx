@@ -24,7 +24,7 @@ const CoursesSection = () => {
       </div>
 
       <Link
-        to={"/courses-list"}
+        to={"/course-list"}
         onClick={() => window.scrollTo(0, 0)}
         className="text-gray-50 bg-blue-600 hover:bg-blue-700 border border-gray-500/30 px-10 py-3 rounded"
       >

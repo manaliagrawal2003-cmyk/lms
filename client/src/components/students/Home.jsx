@@ -1,10 +1,10 @@
-import React from 'react'
-import Hero from '../../components/students/Hero'
-import Companies from '../../components/students/Companies'
-import CoursesSection from '../../components/students/CoursesSection'
-import TestimonialsSection from './TestimonialsSection'
-import CallToAction from './CallToAction'
-import Footer from './Footer'
+import React from 'react';
+import Hero from '../../components/students/Hero';
+import Companies from '../../components/students/Companies';
+import CoursesSection from '../../components/students/CoursesSection';
+import TestimonialsSection from './TestimonialsSection';
+import CallToAction from './CallToAction';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -12,11 +12,11 @@ const Home = () => {
       <Hero />
       <Companies />
       <CoursesSection />
-      <TestimonialsSection/>
-      <CallToAction/>
-      <Footer/>
-          </div>
-  )
-}
+      <TestimonialsSection />
+      <CallToAction />
+      <Footer />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
